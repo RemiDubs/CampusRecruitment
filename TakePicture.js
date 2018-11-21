@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function(event) { 
 
     const video = document.querySelector('.video');
     alert(video);
-    const img = document.querySelector('img');
+    const img = document.querySelector('.image');
 
     
     navigator.mediaDevices.getUserMedia({video: true})
